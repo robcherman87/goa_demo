@@ -1,0 +1,514 @@
+/* BOOTSTRAP OVERRIDES */
+
+body {
+    background:#f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+.form-signin {
+    padding-top:10%;
+}
+.alert-primary {
+    background: rgba(255,255,255,.5);
+    color:#f1f1f1;
+    border:none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+button {
+    background-color: #ff6c2c !important;
+    border-color:#ff6c2c !important;
+}
+.col-header {
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+.img-logo {
+    max-width:100%;
+    width:60%;
+    margin:20% 0 65% 20%;
+}
+.sidebar-nav {
+ position: fixed;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ background:#000000;
+
+ /* -webkit-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.45);
+ -moz-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.45);
+ box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.45); */
+}
+.sidebar-nav li, .sidebar-nav li a {
+    color:#f1f1f1;
+}
+.navbar-link {
+    text-align:center;
+    text-transform:uppercase;
+    margin-bottom:25px;
+}
+.navbar-link a:hover {
+    color:#757575;
+    transition:.15s all ease-in;
+}
+.navbar-link a {
+    text-decoration:none;
+}
+.navbar-link i {
+    font-size:28px;
+    padding-bottom:10px;
+}
+.nav-item a span {
+   letter-spacing:0.05em;
+}
+.nav-item:hover {
+    background:#e1e1e1;
+}
+.nav-text {
+    font-size:12px;
+    letter-spacing:0.1em;
+}
+
+/* TOP NAV */
+
+.top-nav {
+    background:#212121;
+    height:40px;
+    border-left:.5px solid #d1d1d1;
+    width:100%;
+    padding-top:10px;
+
+    /* -webkit-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.45);
+    -moz-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.45);
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.45); */
+}
+.top-nav-icon {
+    color:#f1f1f1;
+    margin-right:15px;
+}
+
+/* HEADER */
+
+header {
+    background: url('http://www.robcherman.com/denver_background.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding:50px;
+    /* height:400px; */
+}
+header h3 {
+    color:#f1f1f1;
+    font-size:32px; 
+}
+
+/* CONTENT */
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    .btn-info {
+        display:none;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar-nav {
+        display:none;   
+    }
+}
+
+/* YOUTUBE VIDEO STYLES */
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+/* Dashboard Styles */
+
+.dashboard-card {
+    position:relative;
+    bottom:40px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+#next-lesson-card {
+    border-bottom:30px solid #ff6c2c;
+    background-image:url("http://www.robcherman.com/golf-ball-background.png") !important;
+    background-repeat:no-repeat;
+    background-size:35%;
+    background-position: 75% 75%;
+}
+#recent-lesson-card {
+    border-bottom:30px solid #8cbf5d;
+    background-image:url("http://www.robcherman.com/golf-ball-background.png") !important;
+    background-repeat:no-repeat;
+    background-size:35%;
+    background-position: 75% 75%;
+}
+#lowest_score, #longest_drive {
+    background-image:url("http://www.robcherman.com/golf-ball-background.png") !important;
+    background-repeat:no-repeat;
+    background-size:35%;
+    background-position: 75% 75%;
+}
+#next-lesson-card, #recent-lesson-card .card-body {
+    color:#212121;
+}
+.dash-ad {
+    max-width:100%; 
+}
+.bag-catalog span {
+    font-size:1.25rem;
+    font-weight:500;
+}
+.instruction-text {
+    margin:15px 0 30px 0;
+    text-align:center;
+}
+.instruction-header {
+    margin:10px 0 30px 0;
+}
+
+/* TEXT STYLES */
+
+.text-gray {
+    color:#999999;
+}
+.text-orange {
+    color:#ff6c2c;
+}
+.text-light-gray {
+    color:#e1e1e1;
+}
+.text-small {
+    font-size:12px;
+}
+.text-medium {
+    font-size:16px;
+}
+.text-large {
+    font-size:22px;
+}
+.text-thin {
+    font-weight:400;
+}
+.text-thick {
+    font-weight:700;
+}
+/* TIMELINE */
+
+.timeline-box {
+    height:180px;
+    padding:0;
+    text-align:center;
+}
+.timeline-box span {
+    font-size:14px;
+    color:#bdbdbd;
+}
+.active-timeline-text {
+    color:#212121 !important;
+}
+.timeline-badge {
+    margin:0 auto;
+    margin-top:30%;
+    width:55px;
+    height:55px;
+    background:#e1e1e1;
+    border-radius:50%;
+    position:relative;
+    border: 2px solid #bdbdbd;
+    text-align:center;
+    padding-top:13px;
+    color:#f1f1f1;
+}
+.timeline-badge::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 2px;
+    background: #bdbdbd;
+    width: 145px;
+    left: 100%;
+    top: calc(50% - 2px);
+  }
+  #no_border::after {
+      width:0;
+  }
+  .active-timeline {
+      background:#72d54a;
+      border:3px solid #e1e1e1;
+  }
+  .passive-timeline {
+      background:#bdbdbd;
+      border:2px solid #bdbdbd;
+  }
+  .tile {
+      /* background: -webkit-linear-gradient(45deg, rgb(114, 213, 74) 0%, rgb(0, 120, 51) 100%); */
+      height:225px;
+      cursor:pointer;
+      padding-top:60px;
+      /* border-radius:10%; */
+      margin-bottom:30px;
+      text-align:center;
+      color:#999999;
+      border:2px solid #999999;
+  }
+  .tile h3 {
+      font-weight:400;
+      font-size:24px;
+  }
+  #tile-alt {
+      width:175px;
+      height:175px;
+      padding-top:40px;
+      margin-bottom:10px;
+      /* border-radius:8%; */
+  }
+  #tile-alt h3 {
+      font-size:18px;
+      padding:5px;
+  }
+  .tile:hover {
+      border:2px solid #72d54a;
+  }
+  .tile i {
+      font-size:56px;
+      margin-bottom:15px;
+  }
+  .tile a:hover {
+      text-decoration:none;
+  }
+ 
+
+  /* CALENDAR CSS */
+
+    #fullDiv {
+    position: relative;
+    }
+
+    ul {
+    margin: 0;
+    padding: 0;
+    }
+
+    .calendar li {
+    float: left;
+    display: block;
+    width: 14.2857%;
+    text-align: center;
+    list-style-type: none;
+    line-height:74.4997px;
+    }
+
+    .calendar li:nth-child(n+1):nth-child(-n+7) {
+    font-weight: 900;
+    color: #ff6c2c;
+    }
+
+    .calendar li:nth-child(n+39), li:nth-child(n+8):nth-child(-n+16) {
+    font-weight: 900;
+    color: rgba(0,0,0,.3);
+    }
+
+    .calendar li:hover {
+        border-radius: 50%;
+        background-color: #d1d1d1;
+        color: #ecf0f1 !important;
+        cursor:pointer;
+    }
+
+    /* .calendar li:hover:nth-child(n+8):nth-child(-n+38), li:nth-child(17){
+        color: #1abc9c;
+        font-weight:700;
+        font-size:22px;
+    } */
+
+    .schedule-button {
+        margin-left:10px;
+    }
+
+    .schedule-another {
+        color:#f1f1f1 !important;
+        background:#757575 !important;
+        border-color:#757575 !important;
+    }
+
+    .available-time {
+        background:#72d54a;
+        border-radius:50%;
+    }
+
+    .available-time-indicator {
+        width:25px;
+        height:25px;
+        border-radius:50%;
+        background:#72d54a;
+    }
+
+    /* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: #151b26;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #7386D5;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#dismiss:hover {
+    background: #fff;
+    color: #7386D5;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .timeline {
+        display:none;   
+    }
+    .sidebar {
+        padding:10px 0;
+    }
+}
+
