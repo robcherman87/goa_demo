@@ -71,7 +71,7 @@ class Schedule_4 extends Component {
                     <hr />
                 </div>
                 <div className="col-md-8 offset-md-2">
-                    <button className="btn btn-primary float-right schedule-button">Finalize</button>
+                    <button className="btn btn-primary float-right schedule-button">Finalize</button><br /><br />
                     <Link to="Schedule_2">
                         <button className="btn float-right schedule-another">Schedule Another</button>
                     </Link>

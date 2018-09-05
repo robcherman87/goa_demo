@@ -382,7 +382,7 @@ header h3 {
     left: -250px;
     height: 100vh;
     z-index: 999;
-    background: #151b26;
+    background: #212121;
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
@@ -398,7 +398,6 @@ header h3 {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background: #7386D5;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -410,7 +409,7 @@ header h3 {
 
 #dismiss:hover {
     background: #fff;
-    color: #7386D5;
+    color: #212121;
 }
 
 .overlay {
@@ -430,12 +429,11 @@ header h3 {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #212121;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul p {
@@ -447,17 +445,17 @@ header h3 {
     padding: 10px;
     font-size: 1.1em;
     display: block;
+    color:#f1f1f1;
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #212121;
     background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
 }
 
 a[data-toggle="collapse"] {
@@ -509,6 +507,31 @@ a.article:hover {
     }
     .sidebar {
         padding:10px 0;
+        background:#212121;
+    }
+    .sidebar-header img {
+        position:relative;
+        top:75px;
+    }
+    .available-time {
+        width:100%;
+        border-radius:0 !important;
+    }
+    .calendar li:hover {
+        background:none !important;
+        color:#212121 !important;
+    }
+    .booking-info {
+        width:100%;
+    }
+    .booking-info-icon {
+        font-size:22px;
+    }
+    .booking-info-text {
+        font-size:22px;
+    }
+    .top-nav {
+        display:none;
     }
 }
 

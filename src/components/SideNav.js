@@ -12,9 +12,12 @@ class SideNav extends Component {
                 <button type="button" id="sidebarCollapse" className="btn btn-info">
                     <i className="fas fa-bars"></i>
                 </button>
+                
                 <div className="row">
                 <nav className="col-md-1 sidebar sidebar-nav">
-                    <img src="http://www.robcherman.com/gt_ovalG_green7488.png" className="img-responsive img-logo" alt="Golftec Logo" />
+                    <Link to="/">
+                        <img src="http://www.robcherman.com/gt_ovalG_green7488.png" className="img-responsive img-logo" alt="Golftec Logo" />
+                    </Link>
                     <ul className="nav nav-pills flex-column">
                         
                         <li className="navbar-link wow slideInLeft" data-wow-delay=".7s">

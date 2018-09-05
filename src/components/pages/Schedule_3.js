@@ -67,7 +67,7 @@ class Schedule_3 extends Component {
                         </div>
                         <div className="col-md-2 offset-md-1">
                             <Link to="Schedule_4">
-                                <button className="btn btn-primary">
+                                <button className="btn btn-primary btn-block">
                                 Book Now
                                 </button>
                             </Link>
@@ -79,7 +79,7 @@ class Schedule_3 extends Component {
                             11:00AM
                         </div>
                         <div className="col-md-2 offset-md-1">
-                            <button className="btn btn-primary">
+                            <button className="btn btn-primary btn-block">
                             Book Now
                             </button>
                         </div>
@@ -90,7 +90,7 @@ class Schedule_3 extends Component {
                             11:30AM
                         </div>
                         <div className="col-md-2 offset-md-1">
-                            <button className="btn btn-primary">
+                            <button className="btn btn-primary btn-block">
                             Book Now
                             </button>
                         </div>

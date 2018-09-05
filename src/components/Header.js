@@ -19,7 +19,7 @@ class Header extends Component {
                     </div>
                     <div className="col-md-3">
                         <Link to="Schedule_1">
-                            <button className="btn btn-primary wow pulse float-right mt-4"><i className="fa fa-plus-circle"></i>&nbsp;&nbsp;Schedule New Lesson</button>
+                            <button className="btn btn-primary wow pulse mt-4 btn-block"><i className="fa fa-plus-circle"></i>&nbsp;&nbsp;Schedule New Lesson</button>
                         </Link>
                     </div>
                 </div>

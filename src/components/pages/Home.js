@@ -24,7 +24,7 @@ class Home extends Component {
                         <NextLesson /><br />
                         <RecentLesson /><br />
                         <LowestScore /><br />
-                        <LongestDrive />
+                        <LongestDrive /><br />
                     </div>
                     <div className="col-md-6 wow fadeInUp" data-wow-delay="0.02s">
                         <SwingAnalysis /><br />

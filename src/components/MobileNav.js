@@ -14,21 +14,25 @@ class MobileNav extends Component {
             </div>
 
             <div class="sidebar-header">
-                <img src="http://www.robcherman.com/gt_ovalG_green7488.png" className="img-responsive img-logo" alt="Golftec Logo" />
+                <Link to="/">
+                    <img src="http://www.robcherman.com/gt_ovalG_green7488.png" className="img-responsive img-logo" alt="Golftec Logo" />
+                </Link>
             </div>
 
             <ul class="list-unstyled components">
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+                <li>
+                    <a href="#"><i className="nav-icon fa fa-home"></i>&nbsp;&nbsp;&nbsp;Home</a>
                 </li>
                 <li>
-                    <a href="#">My Game</a>
+                    <a href="#"><i className="nav-icon fa fa-golf-ball"></i>&nbsp;&nbsp;&nbsp;My Game</a>
                 </li>
+                <Link to="Schedule_1">
+                    <li>
+                        <a href="#"> <i className="nav-icon fa fa-calendar"></i>&nbsp;&nbsp;&nbsp;Schedule</a>
+                    </li>
+                </Link>
                 <li>
-                    <a href="#">Schedule</a>
-                </li>
-                <li>
-                    <a href="#">TECNews</a>
+                    <a href="#"><i className="nav-icon fa fa-newspaper"></i>&nbsp;&nbsp;&nbsp;TECNews</a>
                 </li>
             </ul>
         </nav>
