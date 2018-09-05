@@ -8,6 +8,48 @@ class Schedule_1 extends Component {
     return (
       <div className="wow fadeIn">
           <div className="container"> 
+            
+            <div className="mobile-timeline">
+                <div className="col-md-12">
+                    <div className="container">
+                        <div className="row">
+                            
+                            <div className="col-md-4 timeline-box mobile-timeline-item">
+                                <Link to="Schedule_1">  
+                                    <div className="timeline-badge active-timeline">
+                                    </div>
+                                    <span className="active-timeline-text">How do you want to schedule?</span>
+                                </Link>
+                            </div>
+                            
+                            <div className="col-md-4 timeline-box mobile-timeline-item">
+                                <Link to="Schedule_2">  
+                                    <div className="timeline-badge">
+                                    </div>
+                                    <span>Pick your lesson type</span>
+                                </Link>
+                            </div>
+                            
+                            <div className="col-md-4 timeline-box mobile-timeline-item">
+                                <Link to="Schedule_3">  
+                                    <div className="timeline-badge">
+                                    </div>
+                                    <span>Find a time</span>
+                                </Link>
+                            </div>
+
+                            <div className="col-md-4 timeline-box mobile-timeline-item">
+                                <Link to="Schedule_4">
+                                    <div className="timeline-badge">
+                                    </div>
+                                    <span>Finalize</span>
+                                </Link>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div className="timeline">
                 <div className="col-md-12 offset-md-2">
                     <div className="row">
@@ -46,6 +88,7 @@ class Schedule_1 extends Component {
                     </div>
                 </div>
               </div>
+              
               <div className="row">
                 <div className="container">
                     <div className="col-md-12 offset-md-3">

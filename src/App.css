@@ -15,7 +15,7 @@ body {
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 button {
     background-color: #ff6c2c !important;
@@ -97,7 +97,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding:50px;
+    padding:55px 35px;
     /* height:400px; */
 }
 header h3 {
@@ -272,6 +272,20 @@ header h3 {
       background:#bdbdbd;
       border:2px solid #bdbdbd;
   }
+
+  /* MOBILE TIMELINE */
+
+ .mobile-timeline {
+     visibility:hidden;
+     position:absolute;
+ }
+
+  .mobile-timeline-item {
+      width:25%;
+  }
+
+
+
   .tile {
       /* background: -webkit-linear-gradient(45deg, rgb(114, 213, 74) 0%, rgb(0, 120, 51) 100%); */
       height:225px;
@@ -537,6 +551,13 @@ a.article:hover {
         font-size:22px;
     }
     .top-nav {
+        display:none;
+    }
+    .mobile-timeline {
+        visibility:visible;
+        position:relative;
+    }
+    .timeline-badge::after {
         display:none;
     }
 }

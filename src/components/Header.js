@@ -10,12 +10,17 @@ class Header extends Component {
          <header>
             <div className="container">
                 <div className="alert alert-primary wow pulse dash-alert" role="alert">
-                    <i className="fa fa-calendar"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>You have four lessons to schedule</span>
+                    <i className="fa fa-calendar"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>You have (4) Lessons to schedule</span>
+                    <span className="float-right"><i className="fa fa-times-circle"></i></span>
+                </div>
+                <div className="alert alert-primary wow pulse dash-alert" role="alert">
+                    <i className="fa fa-golf-club"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>You have a new club recommendation</span>
                     <span className="float-right"><i className="fa fa-times-circle"></i></span>
                 </div>
                 <div className="row">
                     <div className="col-md-9">
-                        <h3 className="wow slideInLeft mt-4"><span className="text-thin">Welcome Back,</span> <span className="">User</span></h3>
+                        <h3 className="wow slideInLeft mt-4"><span className="text-thin">Welcome Back,</span> <span className="">User | <span className="text-medium"><i class="fas fa-location-arrow"></i>&nbsp;&nbsp;&nbsp;Denver, CO</span></span></h3>
+                        <hr />
                     </div>
                     <div className="col-md-3">
                         <Link to="Schedule_1">

@@ -61,11 +61,13 @@ class Schedule_3_5 extends Component {
               <div className="row schedule-times">
                 <div className="col-md-12 offset-md-2">
                     <div className="row wow fadeInUp" data-wow-delay=".1s">
-                        <div className="col-md-4 offset-md-1">
+                        <div className="col-md-5 offset-md-1">
                             <i className="fa fa-clock text-gray"></i>&nbsp;
-                            <span className="text-thick text-large text-green">&nbsp;&nbsp;10:30AM</span> <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute practice</span> 
+                            <span className="text-large text-green">&nbsp;&nbsp;10:30AM    |</span>
+                            <span className="text-medium text-gray">&nbsp;&nbsp;January 1st, 0000   |</span>
+                            <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute Practice</span> 
                         </div>
-                        <div className="col-md-2 offset-md-1">
+                        <div className="col-md-2">
                             <Link to="Schedule_4">
                                 <button className="btn btn-primary btn-block">
                                 Book Now
@@ -74,11 +76,13 @@ class Schedule_3_5 extends Component {
                         </div>
                     </div><br />
                     <div className="row wow fadeInUp" data-wow-delay=".1s">
-                        <div className="col-md-4 offset-md-1">
+                        <div className="col-md-5 offset-md-1">
                             <i className="fa fa-clock text-gray"></i>&nbsp;
-                            <span className="text-thick text-large text-green">&nbsp;&nbsp;11:00AM</span> <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute practice</span>
+                            <span className="text-large text-green">&nbsp;&nbsp;11:00AM    |</span>
+                            <span className="text-medium text-gray">&nbsp;&nbsp;January 1st, 0000   |</span>
+                            <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute Practice</span> 
                         </div>
-                        <div className="col-md-2 offset-md-1">
+                        <div className="col-md-2">
                             <Link to="Schedule_4_5">
                                 <button className="btn btn-primary btn-block">
                                 Book Now
@@ -86,19 +90,6 @@ class Schedule_3_5 extends Component {
                             </Link>
                         </div>
                     </div><br />
-                    <div className="row wow fadeInUp" data-wow-delay=".1s">
-                        <div className="col-md-4 offset-md-1">
-                            <i className="fa fa-clock text-gray"></i>&nbsp;
-                            <span className="text-thick text-large text-green">&nbsp;&nbsp;11:30AM</span> <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute practice</span>
-                        </div>
-                        <div className="col-md-2 offset-md-1">
-                            <Link to="Schedule_4">
-                                <button className="btn btn-primary btn-block">
-                                Book Now
-                                </button>
-                            </Link>
-                        </div>
-                    </div>
                 </div>
               </div>
           </div>
