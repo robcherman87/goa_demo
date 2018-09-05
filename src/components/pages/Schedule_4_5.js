@@ -56,7 +56,7 @@ class Schedule_4_5 extends Component {
                 <hr />
                     <div className="row">
                         <div className="col-md-10">
-                            <span className="text-large text-thick">60-Minute Lesson</span><br />
+                            <span className="text-large text-thick text-orange">60-Minute Lesson</span><br />
                             <span className="text-gray text-thin"><i class="fas fa-clock text-gray"></i>&nbsp;&nbsp;&nbsp;&nbsp;Thursday August 2nd, 2018</span><br />
                             <span className="text-gray text-thin"><i class="fas fa-building text-gray"></i>&nbsp;&nbsp;&nbsp;&nbsp;Nick Clearwater | Headquarters</span>
                         </div>
@@ -69,7 +69,7 @@ class Schedule_4_5 extends Component {
                     <hr />
                     <div className="row">
                         <div className="col-md-10">
-                            <span className="text-large text-thick">60-Minute Practice</span><br />
+                            <span className="text-large text-thick text-orange">60-Minute Practice</span><br />
                             <span className="text-gray text-thin"><i class="fas fa-clock text-gray"></i>&nbsp;&nbsp;&nbsp;&nbsp;Thursday August 9nd, 2018</span><br />
                             <span className="text-gray text-thin"><i class="fas fa-building text-gray"></i>&nbsp;&nbsp;&nbsp;&nbsp;Nick Clearwater | Headquarters</span>
                         </div>

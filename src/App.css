@@ -20,6 +20,7 @@ a:-webkit-any-link {
 button {
     background-color: #ff6c2c !important;
     border-color:#ff6c2c !important;
+    border-radius:0 !important;
 }
 .col-header {
     padding-left:0 !important;

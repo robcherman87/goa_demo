@@ -62,10 +62,10 @@ class Schedule_3_5 extends Component {
                 <div className="col-md-12 offset-md-2">
                     <div className="row wow fadeInUp" data-wow-delay=".1s">
                         <div className="col-md-5 offset-md-1">
-                            <i className="fa fa-clock text-gray"></i>&nbsp;
-                            <span className="text-large text-green">&nbsp;&nbsp;10:30AM    |</span>
-                            <span className="text-medium text-gray">&nbsp;&nbsp;January 1st, 0000   |</span>
-                            <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute Practice</span> 
+                            <i className="fa fa-clock text-gray text-large"></i>&nbsp;&nbsp;&nbsp;
+                            <span className="text-large text-green">10:30AM</span>&nbsp;&nbsp;&nbsp;
+                            <span className="text-medium">January 1st, 0000</span>&nbsp;&nbsp;&nbsp;
+                            <span className="text-gray">30-minute Practice</span> 
                         </div>
                         <div className="col-md-2">
                             <Link to="Schedule_4">
@@ -75,12 +75,12 @@ class Schedule_3_5 extends Component {
                             </Link>
                         </div>
                     </div><br />
-                    <div className="row wow fadeInUp" data-wow-delay=".1s">
-                        <div className="col-md-5 offset-md-1">
-                            <i className="fa fa-clock text-gray"></i>&nbsp;
-                            <span className="text-large text-green">&nbsp;&nbsp;11:00AM    |</span>
-                            <span className="text-medium text-gray">&nbsp;&nbsp;January 1st, 0000   |</span>
-                            <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute Practice</span> 
+                    <div className="row wow fadeInUp" data-wow-delay=".2s">
+                    <div className="col-md-5 offset-md-1">
+                            <i className="fa fa-clock text-gray text-large"></i>&nbsp;&nbsp;&nbsp;
+                            <span className="text-large text-green">10:30AM</span>&nbsp;&nbsp;&nbsp;
+                            <span className="text-medium">January 1st, 0000</span>&nbsp;&nbsp;&nbsp;
+                            <span className="text-gray">30-minute Practice</span> 
                         </div>
                         <div className="col-md-2">
                             <Link to="Schedule_4_5">

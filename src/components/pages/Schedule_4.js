@@ -89,7 +89,6 @@ class Schedule_4 extends Component {
                             <div className="col-md-2 timeline-box">
                                 <Link to="Schedule_4">
                                     <div className="timeline-badge active-timeline finalize-timeline" id="no_border">
-                                    <i className="fa fa-check wow bounceInDown final-check"></i>
                                     </div>
                                     <span className="active-timeline-text">Finalize</span>
                                 </Link>
@@ -104,7 +103,7 @@ class Schedule_4 extends Component {
                 <hr />
                     <div className="row">
                         <div className="col-md-10">
-                            <span className="text-large text-thick">60-Minute Lesson</span><br />
+                            <span className="text-large text-thick text-orange">60-Minute Lesson</span><br />
                             <span className="text-gray text-thin"><i class="fas fa-clock text-gray"></i>&nbsp;&nbsp;&nbsp;&nbsp;Thursday August 2nd, 2018</span><br />
                             <span className="text-gray text-thin"><i class="fas fa-building text-gray"></i>&nbsp;&nbsp;&nbsp;&nbsp;Nick Clearwater | Headquarters</span>
                         </div>

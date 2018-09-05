@@ -152,8 +152,62 @@ class Schedule_3 extends Component {
                             </div>
                         </div>
                     </div>   
-                </div>
+                 </div>
               </div>
+
+              <div className="row schedule-times">
+                <div className="col-md-12 offset-md-2">
+                    <div className="row">
+                        <div className="col-md-3 offset-md-1 wow fadeInUp" data-wow-delay=".3s">
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <h3>11:30 am</h3>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <h5 className="text-gray text-thin">January 1st, 0000</h5>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <h5 className="text-gray text-thin text-medium">30-Minute Lesson</h5>
+                                </div>
+                            </div>
+                            <div className="row"> 
+                                <div className="col-md-12">
+                                    <Link to="Schedule_4">
+                                        <button className="btn-primary btn">Book Now</button>
+                                    </Link>
+                                </div>
+                            </div><br />
+                        </div>
+                        <div className="col-md-3 wow fadeInUp" data-wow-delay=".4s">
+                            <div className="row">
+                                    <div className="col-md-12">
+                                        <h3>12:00 pm</h3>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <h5 className="text-gray text-thin">January 1st, 0000</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <h5 className="text-gray text-thin text-medium">30-Minute Lesson</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <button className="btn-primary btn">Book Now</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>   
+                 </div>
+              </div>
+
           </div>
       </div>
     );
