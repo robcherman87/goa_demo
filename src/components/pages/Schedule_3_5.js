@@ -5,7 +5,7 @@ import Calendar from '../Calendar';
 
 import { Link } from 'react-router';
 
-class Schedule_3 extends Component {
+class Schedule_3_5 extends Component {
   render() {
     return (
       <div className="wow fadeIn"> 
@@ -63,7 +63,7 @@ class Schedule_3 extends Component {
                     <div className="row wow fadeInUp" data-wow-delay=".1s">
                         <div className="col-md-4 offset-md-1">
                             <i className="fa fa-clock text-gray"></i>&nbsp;
-                            <span className="text-thick text-large text-green">&nbsp;&nbsp;10:30AM</span> <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute lesson</span> 
+                            <span className="text-thick text-large text-green">&nbsp;&nbsp;10:30AM</span> <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute practice</span> 
                         </div>
                         <div className="col-md-2 offset-md-1">
                             <Link to="Schedule_4">
@@ -76,10 +76,10 @@ class Schedule_3 extends Component {
                     <div className="row wow fadeInUp" data-wow-delay=".1s">
                         <div className="col-md-4 offset-md-1">
                             <i className="fa fa-clock text-gray"></i>&nbsp;
-                            <span className="text-thick text-large text-green">&nbsp;&nbsp;11:00AM</span> <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute lesson</span>
+                            <span className="text-thick text-large text-green">&nbsp;&nbsp;11:00AM</span> <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute practice</span>
                         </div>
                         <div className="col-md-2 offset-md-1">
-                            <Link to="Schedule_3_5">
+                            <Link to="Schedule_4_5">
                                 <button className="btn btn-primary btn-block">
                                 Book Now
                                 </button>
@@ -89,7 +89,7 @@ class Schedule_3 extends Component {
                     <div className="row wow fadeInUp" data-wow-delay=".1s">
                         <div className="col-md-4 offset-md-1">
                             <i className="fa fa-clock text-gray"></i>&nbsp;
-                            <span className="text-thick text-large text-green">&nbsp;&nbsp;11:30AM</span> <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute lesson</span>
+                            <span className="text-thick text-large text-green">&nbsp;&nbsp;11:30AM</span> <span className="text-gray">&nbsp;&nbsp;&nbsp;30-minute practice</span>
                         </div>
                         <div className="col-md-2 offset-md-1">
                             <Link to="Schedule_4">
@@ -107,4 +107,4 @@ class Schedule_3 extends Component {
   }
 }
 
-export default Schedule_3;
+export default Schedule_3_5;

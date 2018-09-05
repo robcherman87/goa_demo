@@ -59,7 +59,7 @@ class Schedule_1 extends Component {
                         <div className="container">
                             <div className="col-md-12 offset-md-3">
                                 <div className="row">
-                                    <div className="col-md-3 wow fadeInUp" data-wow-delay="0.01s">
+                                    <div className="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
                                         <Link to="Schedule_2">
                                             <div className="tile">
                                                 <i class="fas fa-wrench"></i>
@@ -67,7 +67,7 @@ class Schedule_1 extends Component {
                                             </div>
                                         </Link>
                                     </div>
-                                    <div className="col-md-3 wow fadeInUp" data-wow-delay="0.03s">
+                                    <div className="col-md-3 wow fadeInUp" data-wow-delay="0.2s">
                                         <div className="tile">
                                             <i class="fas fa-magic"></i>
                                             <h3>Smart Schedule©</h3>

@@ -202,6 +202,10 @@ header h3 {
 .text-orange {
     color:#ff6c2c;
 }
+.text-green {
+    color:#72d54a;
+}
+
 .text-light-gray {
     color:#e1e1e1;
 }
@@ -383,6 +387,8 @@ header h3 {
     height: 100vh;
     z-index: 999;
     background: #212121;
+    /* background-image:url("http://www.robcherman.com/denver_background.jpg"); */
+    background-position:50% 40%;
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
@@ -510,8 +516,8 @@ a.article:hover {
         background:#212121;
     }
     .sidebar-header img {
-        position:relative;
-        top:75px;
+        width:75px;
+        margin:35px 0;
     }
     .available-time {
         width:100%;

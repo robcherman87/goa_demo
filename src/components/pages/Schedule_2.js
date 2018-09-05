@@ -68,10 +68,12 @@ class Schedule_2 extends Component {
                                     </Link>
                                 </div>
                                 <div className="col-md-2 wow fadeInUp" data-wow-delay="0.03s">
-                                    <div className="tile" id="tile-alt">
-                                        <i class="fas fa-golf-ball"></i>
-                                        <h3>30-Minute Practice</h3>
-                                    </div>
+                                    <Link to="Schedule_3_5">
+                                        <div className="tile" id="tile-alt">
+                                            <i class="fas fa-golf-ball"></i>
+                                            <h3>30-Minute Practice</h3>
+                                        </div>
+                                    </Link>
                                 </div>
                                 <div className="col-md-2 wow fadeInUp" data-wow-delay="0.05s">
                                     <div className="tile" id="tile-alt">
