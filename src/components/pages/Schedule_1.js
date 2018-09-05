@@ -18,7 +18,7 @@ class Schedule_1 extends Component {
                                 <Link to="Schedule_1">  
                                     <div className="timeline-badge active-timeline">
                                     </div>
-                                    <span className="active-timeline-text">How do you want to schedule?</span>
+                                    {/* <span className="active-timeline-text">How do you want to schedule?</span> */}
                                 </Link>
                             </div>
                             
@@ -26,7 +26,7 @@ class Schedule_1 extends Component {
                                 <Link to="Schedule_2">  
                                     <div className="timeline-badge">
                                     </div>
-                                    <span>Pick your lesson type</span>
+                                    {/* <span className="active-timeline-text">Pick your lesson type</span> */}
                                 </Link>
                             </div>
                             
@@ -34,7 +34,7 @@ class Schedule_1 extends Component {
                                 <Link to="Schedule_3">  
                                     <div className="timeline-badge">
                                     </div>
-                                    <span>Find a time</span>
+                                    {/* <span className="active-timeline-text">Find a time</span> */}
                                 </Link>
                             </div>
 
@@ -42,7 +42,7 @@ class Schedule_1 extends Component {
                                 <Link to="Schedule_4">
                                     <div className="timeline-badge">
                                     </div>
-                                    <span>Finalize</span>
+                                    {/* <span className="active-timeline-text">Finalize</span> */}
                                 </Link>
                             </div>    
                         </div>

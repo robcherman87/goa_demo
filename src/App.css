@@ -560,5 +560,11 @@ a.article:hover {
     .timeline-badge::after {
         display:none;
     }
+    .active-timeline-text {
+        font-size:12px !important;
+    }
+    .timeline-box {
+        height:120px;
+    }
 }
 
