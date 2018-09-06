@@ -3,55 +3,15 @@ import '../../App.css';
 
 import { Link } from 'react-router';
 
-class Schedule_2 extends Component {
+class SSchedule_1 extends Component {
   render() {
     return (
       <div className="wow fadeIn">
           <div className="container"> 
 
-            <div className="timeline">
-                <div className="col-md-12 offset-md-2">
-                    <div className="row">
-
-                            <div className="col-md-2 timeline-box">
-                                <Link to="Schedule_1">
-                                    <div className="timeline-badge passive-timeline">
-                                        <i className="fa fa-check wow bounceInDown"></i>
-                                    </div>
-                                    <span>How do you want to schedule?</span>
-                                </Link>
-                            </div>
-
-                            <div className="col-md-2 timeline-box">
-                                <Link to="Schedule_2">
-                                    <div className="timeline-badge active-timeline">
-                                    </div>
-                                    <span className="active-timeline-text">Pick your lesson type</span>
-                                </Link>
-                            </div>
-
-                            <div className="col-md-2 timeline-box">
-                                <Link to="Schedule_3">
-                                    <div className="timeline-badge">
-                                    </div>
-                                    <span>Find a time</span>
-                                </Link>
-                            </div>
-
-                            <div className="col-md-2 timeline-box">
-                                <Link to="Schedule_4">
-                                    <div className="timeline-badge" id="no_border">
-                                    </div>
-                                    <span>Finalize</span>
-                                </Link>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
               <div className="row">
                 <div className="container">
-                    <div className="col-md-12 offset-md-4">
+                    <div className="col-md-12">
                         <div className="row">
                             <h1 className="instruction-header">Pick your lesson type</h1>
                         </div>
@@ -61,7 +21,7 @@ class Schedule_2 extends Component {
                             <div className="col-md-12 offset-md-3">
                             <div className="row">
                                 <div className="col-md-2 wow fadeInUp" data-wow-delay="0.01s">
-                                    <Link to="Schedule_3">
+                                    <Link to="SSchedule_2">
                                         <div className="tile" id="tile-alt">
                                             <i class="fas fa-golf-ball"></i>
                                             <h3>30-Minute Lesson</h3>
@@ -69,7 +29,7 @@ class Schedule_2 extends Component {
                                     </Link>
                                 </div>
                                 <div className="col-md-2 wow fadeInUp" data-wow-delay="0.03s">
-                                    <Link to="Schedule_3_5">
+                                    <Link to="">
                                         <div className="tile" id="tile-alt">
                                             <i class="fas fa-golf-ball"></i>
                                             <h3>30-Minute Practice</h3>
@@ -114,4 +74,4 @@ class Schedule_2 extends Component {
   }
 }
 
-export default Schedule_2;
+export default SSchedule_1;

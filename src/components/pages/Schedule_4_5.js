@@ -8,6 +8,7 @@ class Schedule_4_5 extends Component {
     return (
       <div className="wow fadeIn">
         <div className="container"> 
+            
             <div className="timeline">
                 <div className="col-md-12 offset-md-2">
                     <div className="row">

@@ -19,7 +19,7 @@ class Header extends Component {
                 </div>
                 <div className="row">
                     <div className="col-md-9">
-                        <h3 className="wow slideInLeft mt-4"><span className="text-thin">Welcome Back,</span> <span className="">User | <span className="text-medium"><i class="fas fa-location-arrow"></i>&nbsp;&nbsp;&nbsp;Denver, CO</span></span></h3>
+                        <h3 className="wow slideInLeft mt-4"><span className="text-thin">Welcome Back,</span> User </h3>
                         <hr />
                     </div>
                     <div className="col-md-3">

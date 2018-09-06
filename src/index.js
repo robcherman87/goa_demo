@@ -5,12 +5,19 @@ import './index.css';
 import Login from './components/pages/Login';
 import Layout from './components/pages/Layout';
 import Home from './components/pages/Home';
+
 import Schedule_1 from './components/pages/Schedule_1';
 import Schedule_2 from './components/pages/Schedule_2';
 import Schedule_3 from './components/pages/Schedule_3';
 import Schedule_3_5 from './components/pages/Schedule_3_5';
 import Schedule_4 from './components/pages/Schedule_4';
 import Schedule_4_5 from './components/pages/Schedule_4_5';
+
+import SSchedule_1 from './components/pages/SSchedule_1';
+import SSchedule_2 from './components/pages/SSchedule_2';
+import SSchedule_3 from './components/pages/SSchedule_3';
+import SSchedule_4 from './components/pages/SSchedule_4';
+import SSchedule_5 from './components/pages/SSchedule_5';
 
 import { Router, 
          Route, 
@@ -30,10 +37,16 @@ ReactDOM.render(
             <Route path="Schedule_3_5" component={Schedule_3_5}></Route>
             <Route path="Schedule_4" component={Schedule_4}></Route>
             <Route path="Schedule_4_5" component={Schedule_4_5}></Route>
+            <Route path="SSchedule_1" component={SSchedule_1}></Route>
+            <Route path="SSchedule_2" component={SSchedule_2}></Route>
+            <Route path="SSchedule_3" component={SSchedule_3}></Route>
+            <Route path="SSchedule_4" component={SSchedule_4}></Route>
+            <Route path="SSchedule_5" component={SSchedule_5}></Route>
         </Route>
         <Route path="loginPage" component={Login}></Route>
     </Router>,
 root);
+
 
 
 

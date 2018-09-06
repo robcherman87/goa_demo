@@ -8,49 +8,8 @@ class Schedule_1 extends Component {
     return (
       <div className="wow fadeIn">
           <div className="container"> 
-            
-            <div className="mobile-timeline">
-                <div className="col-md-12">
-                    <div className="container">
-                        <div className="row">
-                            
-                            <div className="col-md-4 timeline-box mobile-timeline-item">
-                                <Link to="Schedule_1">  
-                                    <div className="timeline-badge active-timeline">
-                                    </div>
-                                    {/* <span className="active-timeline-text">How do you want to schedule?</span> */}
-                                </Link>
-                            </div>
-                            
-                            <div className="col-md-4 timeline-box mobile-timeline-item">
-                                <Link to="Schedule_2">  
-                                    <div className="timeline-badge">
-                                    </div>
-                                    {/* <span className="active-timeline-text">Pick your lesson type</span> */}
-                                </Link>
-                            </div>
-                            
-                            <div className="col-md-4 timeline-box mobile-timeline-item">
-                                <Link to="Schedule_3">  
-                                    <div className="timeline-badge">
-                                    </div>
-                                    {/* <span className="active-timeline-text">Find a time</span> */}
-                                </Link>
-                            </div>
-
-                            <div className="col-md-4 timeline-box mobile-timeline-item">
-                                <Link to="Schedule_4">
-                                    <div className="timeline-badge">
-                                    </div>
-                                    {/* <span className="active-timeline-text">Finalize</span> */}
-                                </Link>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div className="timeline">
+          
+            <div className="manual-timeline">
                 <div className="col-md-12 offset-md-2">
                     <div className="row">
                             
@@ -85,8 +44,8 @@ class Schedule_1 extends Component {
                                     <span>Finalize</span>
                                 </Link>
                             </div>
-                    </div>
-                </div>
+                       </div>
+                  </div>
               </div>
               
               <div className="row">
@@ -111,10 +70,12 @@ class Schedule_1 extends Component {
                                         </Link>
                                     </div>
                                     <div className="col-md-3 wow fadeInUp" data-wow-delay="0.2s">
-                                        <div className="tile">
-                                            <i class="fas fa-magic"></i>
-                                            <h3>Smart Schedule©</h3>
-                                        </div>
+                                        <Link to="SSchedule_1">
+                                            <div className="tile">
+                                                <i class="fas fa-magic"></i>
+                                                <h3>Smart Schedule©</h3>
+                                            </div>
+                                        </Link>
                                     </div>
                                 </div>
                           </div>
