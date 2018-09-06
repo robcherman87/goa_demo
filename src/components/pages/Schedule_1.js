@@ -8,7 +8,7 @@ class Schedule_1 extends Component {
     return (
       <div className="wow fadeIn">
           <div className="container"> 
-          
+
             <div className="manual-timeline">
                 <div className="col-md-12 offset-md-2">
                     <div className="row">
@@ -50,12 +50,14 @@ class Schedule_1 extends Component {
               
               <div className="row">
                 <div className="container">
-                    <div className="col-md-12 offset-md-3">
-                        <div className="row instruction-header">
-                            <h1>How do you want to schedule?</h1>    
-                        </div>
-                        <div className="col-md-6 instruction-text">
-                            <span className="text-gray">There are two ways you can schedule a lesson with GOLFTEC. You can manually schedule a lesson by date and time or have GOLFTEC's Smart Scheduling system put your lesson plan together for you.</span>
+                    <div className="col-md-12">
+                        <div className="instruction-wrapper text-center">
+                            <div className="instruction-header">
+                                <h1>How do you want to schedule?</h1>    
+                            </div>
+                            <div className="instruction-text">
+                                <span className="text-gray">There are two ways you can schedule a lesson with GOLFTEC. You can manually schedule a lesson by date and time or have GOLFTEC's Smart Scheduling system put your lesson plan together for you.</span>
+                            </div>
                         </div>
                     </div>
                         <div className="container">

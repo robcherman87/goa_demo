@@ -9,10 +9,58 @@ class SSchedule_1 extends Component {
       <div className="wow fadeIn">
           <div className="container"> 
 
+                <div className="custom-timeline">
+                    <div className="col-md-12 offset-md-1">
+                        <div className="row">
+                       
+                            <div className="col-md-2 timeline-box">
+                                <Link to="">  
+                                    <div className="timeline-badge active-timeline">
+                                    </div>
+                                    <span>Pick your lesson type</span>
+                                </Link>
+                            </div>
+
+                            <div className="col-md-2 timeline-box">
+                                <Link to="">  
+                                    <div className="timeline-badge">
+                                    </div>
+                                    <span>Pick Days</span>
+                                </Link>
+                            </div>
+
+                            <div className="col-md-2 timeline-box">
+                                <Link to="">
+                                    <div className="timeline-badge">
+                                    </div>
+                                    <span>Pick Time Of Day</span>
+                                </Link>
+                            </div>
+
+                            <div className="col-md-2 timeline-box">
+                                <Link to="">
+                                    <div className="timeline-badge">
+                                    </div>
+                                    <span>Pick Your Schedule</span>
+                                </Link>
+                            </div>
+
+                            <div className="col-md-2 timeline-box">
+                                <Link to="">
+                                    <div className="timeline-badge" id="no_border">
+                                    </div>
+                                    <span>Finalize</span>
+                                </Link>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+
               <div className="row">
                 <div className="container">
                     <div className="col-md-12">
-                        <div className="row">
+                        <div className="text-center">
                             <h1 className="instruction-header">Pick your lesson type</h1>
                         </div>
                     </div>
@@ -68,6 +116,7 @@ class SSchedule_1 extends Component {
                     </div>
                  </div>
               </div>
+
           </div>
       </div>
     );

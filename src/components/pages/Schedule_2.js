@@ -51,8 +51,8 @@ class Schedule_2 extends Component {
                 </div>
               <div className="row">
                 <div className="container">
-                    <div className="col-md-12 offset-md-4">
-                        <div className="row">
+                    <div className="col-md-12">
+                        <div className="text-center">
                             <h1 className="instruction-header">Pick your lesson type</h1>
                         </div>
                     </div>

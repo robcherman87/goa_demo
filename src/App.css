@@ -188,12 +188,14 @@ header h3 {
     font-weight:500;
 }
 .instruction-text {
-    margin:15px 0 30px 0;
-    text-align:center;
+    margin-bottom:30px !important;
+    max-width:50%;
+    margin:0 auto;
 }
 .instruction-header {
     margin:10px 0 30px 0;
 }
+
 
 /* TEXT STYLES */
 
