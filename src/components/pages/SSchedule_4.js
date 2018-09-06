@@ -64,7 +64,7 @@ class SSchedule_4 extends Component {
                 <div className="container">
                     <div className="col-md-12">
                         <div className="text-center">
-                            <h1 className="instruction-header">Pick your time of day</h1>
+                            <h1 className="instruction-header">Pick your schedule</h1>
                         </div>
                     </div>
                     <div className="row">

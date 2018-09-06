@@ -5,6 +5,7 @@ import './index.css';
 import Login from './components/pages/Login';
 import Layout from './components/pages/Layout';
 import Home from './components/pages/Home';
+import Profile from './components/pages/Profile';
 
 import Schedule_1 from './components/pages/Schedule_1';
 import Schedule_2 from './components/pages/Schedule_2';
@@ -42,6 +43,7 @@ ReactDOM.render(
             <Route path="SSchedule_3" component={SSchedule_3}></Route>
             <Route path="SSchedule_4" component={SSchedule_4}></Route>
             <Route path="SSchedule_5" component={SSchedule_5}></Route>
+            <Route path="Profile" component={Profile}></Route>
         </Route>
         <Route path="loginPage" component={Login}></Route>
     </Router>,

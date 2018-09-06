@@ -70,7 +70,7 @@ class SSchedule_3 extends Component {
                         <div className="container">
                             <div className="col-md-12 offset-md-3">
                                 <div className="row">
-                            
+
                                     <div className="col-md-2 wow fadeInUp" data-wow-delay="0.01s">
                                         <Link to="SSchedule_4">
                                             <div className="tile" id="tile-alt">
@@ -97,7 +97,7 @@ class SSchedule_3 extends Component {
                                     </div>
 
                                 </div>
-
+                                
                           </div>
                         </div>
                     </div>
