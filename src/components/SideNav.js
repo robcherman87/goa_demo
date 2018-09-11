@@ -96,7 +96,7 @@ class SideNav extends Component {
                         </li> */}
                       
                         <li className="navbar-link wow slideInLeft" data-wow-delay="1.1s">
-                            <Link to="LoginPage">
+                            <Link to="SignUp">
                             <span className="row">
                                     <span className="col-md-12">
                                         <i className="nav-icon fa fa-sign-out-alt"></i>

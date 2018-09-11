@@ -31,6 +31,41 @@ button {
     width:60%;
     margin:20% 0 65% 20%;
 }
+.signup-logo {
+    max-width:100%;
+    width:70%;
+    margin:100% 0 0 0;
+}
+.signup-form {
+    margin:12% 0 0 0;
+}
+.choose-lesson-form {
+    margin:6% 0 0 0;
+}
+.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
+.signup-checklist {
+    list-style:none;
+    padding:0;
+    margin:10px 0 30px 0;
+}
+.signup-checklist li {
+    font-size:24px;
+    line-height:3em;
+}
+.checklist-icon {
+    margin-right:20px;
+    font-size:24px;
+}
+.checklist-button {
+    background:none !important;
+    border-color:#999999 !important;
+    padding:50px 100px;
+    border-radius:2% !important;
+    margin-right:20px;
+}
+.success {
+    color:#72d54a;
+}
 .sidebar-nav {
  position: fixed;
  top: 0;
@@ -571,5 +606,4 @@ a.article:hover {
         height:120px;
     }
 }
-
 
